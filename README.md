@@ -175,10 +175,6 @@ oplossing inhoudelijk verder uitgewerkt.
 
 # Implementatie
 
-* Technische Specificaties
-* Testen & Validatie
-* Training & Ondersteuning
-
 De meest effectieve manier om de in de visie gestelde doelen in te vullen is
 het hanteren van een informatiemodel voor de energiesector, waarbij voor het
 beschrijven van het elektriciteitsnet gebruik wordt gemaakt van het Common
@@ -201,8 +197,8 @@ uniek identificeerbaar op basis van *URI*, waarmee de structuur (onderstaand)
 direct refeert naar het corresponderende begrip.
 
 > [!IMPORTANT]
-> TODO: Dit vereist een URI-strategie voor het eenduidig identificeren van
->       entiteiten.
+> Dit vereist een URI-strategie voor het eenduidig identificeren van
+> entiteiten.
 
 ### Structuur: CIM Profile Group
 
@@ -231,6 +227,7 @@ Onderstaand een toelichting van de profielen en hun toepasbaarheid:
 |Profiel                      |Toelichting|Voorbeeld|
 |-----------------------------|-----------|---------|
 |Assets                       |Fysieke eigenschappen van componenten in het net|AssetInfo, WireInfo|
+|Capacity Heatmap             |Profiel voor het beschrijven van de netcomponenten nodig voor een capaciteitskaart|Substation, Line|
 |Diagram                      |Tekenen van elektrische diagrammen: Single Line Diagrams (SLD)|Diagram, DiagramObject|
 |Equipment                    |Functionele eigenschappen van componenten in het net|Substation, Switch, Breaker|
 |European Style Market Profile|Marktfacilitering binnen EU-markten|MarketParticipant, MarketAgreement|
@@ -268,8 +265,6 @@ betekenis en/of structuur.
 Uitzonderingen in het proces vallen terug op de voorgaande processtap en worden
 daar opgelost.
 
-### Training & ondersteuning
-
 ## Bestaan
 
 > TODO: elk profiel is een GitHub repository, één centrale repository met
@@ -280,7 +275,7 @@ daar opgelost.
 
 ## Werking
 
-> TODO: Continuous Improvement
+> TODO: Continuous Improvement, Training & ondersteuning
 
 # Risicomanagement
 
