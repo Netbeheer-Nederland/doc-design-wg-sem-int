@@ -307,17 +307,18 @@ van de *CIM Profile Group* en de technologische ondersteuning:
 
 # Begrippen en definities
 
-* CDO: Chief Data Officer
-* DSO: Distribution System Operator
-* Data & informatie: data zijn gegevens zonder context, informatie
-* ENTSO-E
-* EU DSO Entity
-* FAIR
-* Informatiemodel
-* TSO
-* Dataproduct
-* Dataservice
-* Dataset
-* pRO
-* Informatievraag
-* Common Information Model
+* *CDO*: Chief Data Officer;
+* *Common Information Model*: een *canonical data model* voor het beschrijven
+  van het elektriciteitsnet.
+* *Data & informatie*: data zijn gegevens zonder context, informatie voegt
+  context toe;
+* *DSO*: Distribution System Operator, e.g. Stedin;
+* *ENTSO-E*: vertegenwoordigt Europese TSOs;
+* *EU DSO Entity*: vertegenwoordigt Europese DSOs;
+* *FAIR*: principes op gebruik van data;
+* *Informatiemodel*: beschrijving van de betekenis en structuur van informatie
+  en data;
+* *Informatievraag*: een verzoek tot het beschrijven van de betekenis en
+  structuur van een specfieke behoefte rondom informatie;
+* *pRO*: ProgrammaRegieOrginsatie, een samenwerkingsverband tussen Netbeheer
+* *TSO*: Transmission System Operator, e.g. TenneT; Nederland en EDSN;
