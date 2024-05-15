@@ -152,21 +152,21 @@ oplossing:
 1. het opstellen en beheren van een sectorbreed informatiemodel, in de vorm van
    een *CIM Profile Group*. Hierin wordt de structuur van data gerelateerd aan
    bedrijfsvoering, ondersteunend activiteiten en marktfacilitering beschreven.
-   De CIM Profile Group wordt beheerd door de *Werkgroup Semantische
+   De *CIM Profile Group* wordt beheerd door de *Werkgroup Semantische
    Interoperabiliteit*;
 2. het uitvoeren van de processen rondom het opstellen en beheren van de CIM
    Profile Group;
 3. (ondersteunen bij) het opstellen en beheren van dataproducten op basis van
-   de CIM Profile Group voor specifieke informatievragen;
-4. uitdragen van het nut en de noodzaak van de CIM Profile Group;
-5. het geven van trainingen rondom het toepassen van de CIM Profile Group.
+   de *CIM Profile Group* voor specifieke informatievragen;
+4. uitdragen van het nut en de noodzaak van de *CIM Profile Group*;
+5. het geven van trainingen rondom het toepassen van de *CIM Profile Group*.
 
 In het hoofdstuk [Implementatie](#implementatie) wordt de bovenstaande
 oplossing inhoudelijk verder uitgewerkt.
 
 # Aanpak
 
-> TODO
+> TODO: koppeling met lopende epics pRO
 
 ## Structuur
 ## Stakeholders
@@ -207,9 +207,9 @@ de *CIM Profile Group* gehanteerd:
 
 ![CIM Profile Group](assets/cim_profile_group-20240514.png)
 
-De CIM Profile Group is gemodelleerd op twee bestaande *Profile Groups*:
+De *CIM Profile Group* is gemodelleerd op twee bestaande *Profile Groups*:
 
-* *Common Grid Model Exchange Standard* (CGMES): De CIM Profile Group beheerd
+* *Common Grid Model Exchange Standard* (CGMES): De *CIM Profile Group* beheerd
   en verplicht gesteld door de ENTSO-E. CGMES is specifiek voor TSOs
   ontwikkeld, maar is ook inzetbaar voor DSOs. ENTSO-E is de toezichthouder
   voor TSO's binnen de EU;
@@ -227,7 +227,7 @@ Onderstaand een toelichting van de profielen en hun toepasbaarheid:
 |Profiel                      |Toelichting|Voorbeeld|
 |-----------------------------|-----------|---------|
 |Assets                       |Fysieke eigenschappen van componenten in het net|AssetInfo, WireInfo|
-|Capacity Heatmap             |Profiel voor het beschrijven van de netcomponenten nodig voor een capaciteitskaart|Substation, Line|
+|Capacity Heatmap             |Netcomponenten nodig voor een capaciteitskaart|Substation, Line|
 |Diagram                      |Tekenen van elektrische diagrammen: Single Line Diagrams (SLD)|Diagram, DiagramObject|
 |Equipment                    |Functionele eigenschappen van componenten in het net|Substation, Switch, Breaker|
 |European Style Market Profile|Marktfacilitering binnen EU-markten|MarketParticipant, MarketAgreement|
@@ -244,34 +244,54 @@ activiteiten beheersbaar te houden:
 
 ![Layered View](assets/layered_view-20240523.png)
 
-|# |Bedrijfsproces               |Beschrijving|
-|-:|-----------------------------|------------|
-|1.|Onderhoud het informatiemodel||
-|2.|Plan het informatiemodel     ||
-|3.|Bouw het informatiemodel     ||
-|4.|Beoordeel het informatiemodel||
+|# |Bedrijfsproces       |Beschrijving|
+|-:|---------------------|------------|
+|1.|Onderhoud het profiel|Modelleeractiviteiten die een minimale hoeveelheid werk vereisen|
+|2.|Plan het profiel     |Ophalen van requirements, ontwerpen van het profiel|
+|3.|Bouw het profiel     |Datamodelleren en het  beschrijven van de betekenis en structuur|
+|4.|Beoordeel het profiel|Goedkeuring van de verandering in het profiel. Vereist voordat het profiel gepubliceerd wordt|
 
 Het proces voor het aanpassen van een profiel start met een concrete vraag
 vanuit een stakeholder om betekenis of structuur toe te kennen aan een
-informatievraag. Dit wordt beschreven als een *Onderhoudsverzoek*, welke het
-proces ingaat. Voor kleine aanpassingen wordt het Onderhoudsverzoek uitgevoerd
-(1) en wordt het resulterende nieuwe profiel opnieuw beoordeeld (4) voor
-publicatie.  Voor grotere aanpassingen worden één of meerdere *Inhoudelijk
-Expert(s)* betrokken (2) en wordt de aanpassing uitgevoerd (3). Weer wordt er
-een beoordeling uitgevoerd (4) op het nieuwe profiel en wordt het profiel
-gepubliceerd. Uitkomst van het proces is een nieuw profiel met daarin de nieuwe
-betekenis en/of structuur.
+informatievraag. Dit wordt beschreven als een *Onderhoudsverzoek*. Voor kleine
+aanpassingen wordt het Onderhoudsverzoek uitgevoerd (1) en wordt het
+resulterende nieuwe profiel opnieuw beoordeeld (4) voor publicatie.  Voor
+grotere aanpassingen worden één of meerdere *Inhoudelijk Expert(s)* betrokken
+(2) en wordt de aanpassing uitgevoerd (3). Weer wordt er een beoordeling
+uitgevoerd (4) op het nieuwe profiel en wordt het profiel gepubliceerd.
+Uitkomst van het proces is een nieuw profiel met daarin de nieuwe betekenis
+en/of structuur.
 
 Uitzonderingen in het proces vallen terug op de voorgaande processtap en worden
 daar opgelost.
 
 ## Bestaan
 
-> TODO: elk profiel is een GitHub repository, één centrale repository met
->       documentatie en *issue tracker* voor *Maintenance Requests*.
-> TODO: elk profiel is beschreven in LinkML.
-> TODO: conceptueel model als "praatplaat" getekend als ER-diagram, koppelt
->       profiel en begrippen.
+Om de processen concreet in te vullen worden er keuzes gemaakt over het bestuur
+van de *CIM Profile Group* en de technologische ondersteuning:
+
+* de *CIM Profile Group* als geheel wordt beheerd door de *Werkgroep Semantische
+  Interoperabiliteit*. Dit houdt in dat:
+  * de processen worden uitgevoerd door de Werkgroep;
+  * de Werkgroup verantwoordelijk is voor publicatie en ondersteuning bij
+    gebruik van de *CIM Profile Group*;
+* voor het beschrijven van de profielen wordt [LinkML](https://linkml.io/)
+  gebruikt:
+  * elk profiel wordt conform het LinkML metamodel beschreven in YAML;
+  * elk profiel wordt als *repository* in de [Netbeheer
+    Nederland](https://github.com/Netbeheer-Nederland) GitHub organisatie
+    ondergebracht;
+  * het profiel wordt als online documentatie (HTML) gepubliceerd op
+    *https://netbeheer-nederland.github.io*, of op een nader te bepalen
+    subdomein onder *netbeheernederland.nl*
+* voor versiebeheer op de profielen wordt het versiebeheermechanisme van GitHub
+  gebruikt, waarbij wijzigingen als Git Pull Requests worden beheerd en
+  goedgekeurd;
+* voor elk profiel wordt een conceptueel model (*Entity Relationship Diagram*)
+  beschreven als onderdeel van de publicatie van het profiel (HTML pagina met
+  diagram en beschrijving). De structuur (*klassen*) verwijzen naar de
+  betekenis via broad/narrow mapping;
+* het conceptuele model bevat via URI identificeerbare klassen.
 
 ## Werking
 
@@ -301,7 +321,3 @@ daar opgelost.
 * pRO
 * Informatievraag
 * Common Information Model
-
-# Appendix A: Identificatie in het CIM
-# Appendix B: Connectiviteit in het CIM
-# Appendix C: CIM klassen EnergyHubs
