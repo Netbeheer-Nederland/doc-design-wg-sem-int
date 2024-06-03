@@ -240,9 +240,10 @@ De korte termijn kent een aantal *mijlpalen* die worden ingevuld:
 * opschaling *Werkgroep Semantische Interoperabiliteit*: de werkgroep is in
   haar huidige vorm gericht op het beschrijven van de betekenis van informatie.
   In de nieuwe structuur wordt om additionele vaardigheden gevraagd, zoals
-  inhoudelijke kennis van het Common Information Model (CIM). Deze kennis is
-  nu in beperkte mate aanwezig, maar dient uitgebreid te worden. Advies is om
-  op de korte termijn externe inhuur aan te trekken ter grootte van ~1 FTE;
+  inhoudelijke kennis van het Common Information Model (CIM). Deze kennis is nu
+  in beperkte mate aanwezig, maar dient uitgebreid te worden. Advies is om op
+  de korte termijn externe inhuur aan te trekken ter grootte van ~**één** (1)
+  FTE;
 * eerste focus ligt op het elektriciteitsnet: voor het beschrijven van het
   elektriciteitsnet is een set van internationale standaarden beschikbaar
   (CIM), waarvoor er ook inhuurbare expertise buiten de netbeheerders
@@ -286,10 +287,10 @@ uitoefenen:
   het warmte- en gasnet onderdeel van de activiteiten. Hiervoor worden nieuwe
   profielen opgesteld op basis van te kiezen referentiestandaarden;
 * verdere opschaling in bemensing: om bovenstaande ambitie te bewerkstelligen
-  wordt een opschaling van minstens vijf (5) tot tien (10) FTE verwacht. Dit is
-  een mix van personeel vanuit de netbeheerders en externen om de verschillende
-  rollen in te vullen, waarbij extern personeel primair wordt ingezet voor
-  training en ondersteuning van intern personeel.
+  wordt een opschaling van minstens **vijf** (5) tot **tien** (10) FTE
+  verwacht. Dit is een mix van personeel vanuit de netbeheerders en externen om
+  de verschillende rollen in te vullen, waarbij extern personeel primair wordt
+  ingezet voor training en ondersteuning van intern personeel.
 
 Toetsbaar resultaat bestaat uit:
 
