@@ -197,16 +197,16 @@ activiteit. Over de tijd heen verschuift de aanpak en verdeling van
 verantwoordelijkheden. Naarmate het volwassenheidsniveau groeit kan er worden
 opgeschaald en versneld. Er worden drie discrete fasen onderkend:
 
-1. korte termijn: de eerste drie (3) tot zes (6) maanden vanaf het startmoment;
-2. medium termijn: zes (6) tot achttien (18) maanden vanaf het startmoment;
-3. lange termijn: langer dan achttien (18) maanden na het startmoment.
+1. kortetermijn: de eerste drie (3) tot zes (6) maanden vanaf het startmoment;
+2. middellangetermijn: zes (6) tot achttien (18) maanden vanaf het startmoment;
+3. langetermijn: langer dan achttien (18) maanden na het startmoment.
 
 ```mermaid
 gantt
     title Aanpak - in maanden
     dateFormat X
     axisFormat %s
-    section Korte termijn
+    section Kortetermijn
     Start: milestone, 0, 0
     Opschalen werkgroep: 0, 1
     Toetsen aanpak: 0, 6
@@ -214,7 +214,7 @@ gantt
     Profielen voor 2 dataproducten: milestone, 6, 6
     Ervaring met CIM: milestone, 6, 6
     Advies voor vervolg: crit, milestone, 6, 6
-    section Medium termijn
+    section Middellangetermijn
     Modelleren e-, g- en w-net (scope): 6, 18
     Herpositioneren Werkgroep: 6, 9
     OGSM opgesteld: crit, milestone, 9, 9
@@ -228,9 +228,9 @@ gantt
 
 Voor verdere toelichting, zie de volgende hoofdstukken.
 
-### Korte termijn
+### Kortetermijn
 
-De korte termijn kent een aantal *mijlpalen* die worden ingevuld:
+De kortetermijn kent een aantal *mijlpalen* die worden ingevuld:
 
 * het toetsen van de aanpak: de in dit ontwerp beschreven werkwijze wordt
   uitgevoerd op basis van concrete *use cases*, aangeleverd vanuit o.a. de pRO
@@ -242,15 +242,15 @@ De korte termijn kent een aantal *mijlpalen* die worden ingevuld:
   In de nieuwe structuur wordt om additionele vaardigheden gevraagd, zoals
   inhoudelijke kennis van het Common Information Model (CIM). Deze kennis is nu
   in beperkte mate aanwezig, maar dient uitgebreid te worden. Advies is om op
-  de korte termijn externe inhuur aan te trekken ter grootte van ~**één** (1)
+  de kortetermijn externe inhuur aan te trekken ter grootte van ~**één** (1)
   FTE;
 * eerste focus ligt op het elektriciteitsnet: voor het beschrijven van het
   elektriciteitsnet is een set van internationale standaarden beschikbaar
   (CIM), waarvoor er ook inhuurbare expertise buiten de netbeheerders
-  beschikbaar is. Warmte- en gasnet worden op de korte termijn buiten scope
+  beschikbaar is. Warmte- en gasnet worden op de kortetermijn buiten scope
   geplaatst;
 
-Het resultaat op de korte termijn is toetsbaar op de volgende punten:
+Het resultaat op de kortetermijn is toetsbaar op de volgende punten:
 
 * er is voor minstens twee (2) dataproducten een bruikbare (door netbeheerders
   geaccepteerde) set profielen gepubliceerd door de Werkgroep, onder de eisen
@@ -259,13 +259,13 @@ Het resultaat op de korte termijn is toetsbaar op de volgende punten:
   evalueren of de uitbreiding in verantwoordelijkheden past binnen de in de
   *Visie* en *Doelarchitectuur* beschreven kaders. De Werkgroep geeft een
   positief of negatief advies, eventueel onder voorwaarden, voor vervolg;
-* het CDO-overleg kiest expliciet voor vervolg naar de mediumtermijn.
+* het CDO-overleg kiest expliciet voor vervolg naar de middellangetermijn.
 
-### Mediumtermijn
+### Middellangetermijn
 
-Op de mediumtermijn ligt de nadruk op schaal: hoe kan de *Werkgroep Semantische
-Interoperabiliteit* op medium- en langetermijn duurzaam haar werkzaamheden
-uitoefenen:
+Op de middellangetermijn ligt de nadruk op schaal: hoe kan de *Werkgroep
+Semantische Interoperabiliteit* op middellange- en langetermijn duurzaam haar
+werkzaamheden uitoefenen:
 
 * herpositioneren Werkgroep: de Werkgroep neemt namens *Netbeheer Nederland* en
   de gezamelijke CDOs de rol en titel van *Ontology Design Authority* (ODA). De
@@ -309,7 +309,7 @@ Toetsbaar resultaat bestaat uit:
 
 ### Langetermijn
 
-Op de lange termijn is de *Ontology Design Authority* (ODA) uitgegroeid tot een
+Op de langetermijn is de *Ontology Design Authority* (ODA) uitgegroeid tot een
 duurzaam en breed inzetbaar organisatie-onderdeel rondom het beschrijven van
 betekenis en structuur. Via *Continuous Improvement* worden de processen
 geëvalueerd en verbeterd, is het ODA voor netbeheerders en externe stakeholders
