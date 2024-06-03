@@ -166,12 +166,130 @@ oplossing inhoudelijk verder uitgewerkt.
 
 # Aanpak
 
-> TODO: koppeling met lopende epics pRO
+Voor implementatie van de *CIM Profile Group* wordt gekozen voor een specifieke
+aanpak. Hierbij worden profielen opgesteld en gepubliceerd voor concrete *use
+cases* (dataproducten). Hiermee wordt direct waarde gecreëerd voor
+implementerende teams en de toepasbaarheid van de profielen geborgd.
 
-## Structuur
 ## Stakeholders
+
+Binnen de aanpak worden een aantal stakeholders voorzien die een rol spelen in
+de [implementatie](#implementatie) van dit ontwerp:
+
+* *Chief Data Officers*: de CDOs van de bij *Netbeheer Nederland* aangesloten
+  netbeheerders. Auteurs van de *Visie Datadelen*. Het CDO-overleg besluit over
+  het verder uitbreiden van de taken, verantwoordelijkheden en bevoegdheden van
+  de *Werkgroep Semantische Interoperabiliteit* en toetst of de activiteiten
+  van de Werkgroep passen binnen de kaders van de visie;
+* *Werkgroep Semantische Interoperabiliteit*: voordrager van dit ontwerp;
+* *Domeinraden Klant & Markt en Systeem & Infra* (NBNL): geven opdracht voor
+  het implementeren van dataproducten op sectorniveau;
+* *Netbeheer Nederland Enterprise Architectuur* (NBEA): de
+  enterprisearchitecten van de bij *Netbeheer Nederland* aangesloten
+  netbeheerders. Auteurs van de *Doelarchitectuur Datadelen*. NBEA toetst of de
+  activiteiten van de Werkgroep passen binnen de kaders van de
+  doelarchitectuur.
+
 ## Fasering
-## Tijdlijn
+
+Het opzetten en beheren van de *CIM Profile Group* is een doorlopende
+activiteit. Over de tijd heen verschuift de aanpak en verdeling van
+verantwoordelijkheden. Naarmate het volwassenheidsniveau groeit kan er worden
+opgeschaald en versneld. Er worden drie discrete fasen onderkend:
+
+1. korte termijn: de eerste drie (3) tot zes (6) maanden vanaf het startmoment;
+2. medium termijn: zes (6) tot achttien (18) maanden vanaf het startmoment;
+3. lange termijn: langer dan achttien (18) maanden na het startmoment.
+
+### Korte termijn
+
+De korte termijn kent een aantal *mijlpalen* die worden ingevuld:
+
+* het toetsen van de aanpak: de in dit ontwerp beschreven werkwijze wordt
+  uitgevoerd op basis van concrete *use cases*, aangeleverd vanuit o.a. de pRO
+  en Landelijke Actieprogramma Netcongestie (LAN). Hiervoor worden
+  *deliverables* conform hoofdstuk [Implementatie](#implementatie)
+  geïmplementeerd. Procesverbeteringen worden vastgelegd en uitgevoerd;
+* opschaling *Werkgroep Semantische Interoperabiliteit*: de werkgroep is in
+  haar huidige vorm gericht op het beschrijven van de betekenis van informatie.
+  In de nieuwe structuur wordt om additionele vaardigheden gevraagd, zoals
+  inhoudelijke kennis van het Common Information Model (CIM). Deze kennis is
+  nu in beperkte mate aanwezig, maar dient uitgebreid te worden. Advies is om
+  op de korte termijn externe inhuur aan te trekken ter grootte van ~1 FTE;
+* eerste focus ligt op het elektriciteitsnet: voor het beschrijven van het
+  elektriciteitsnet is een set van internationale standaarden beschikbaar
+  (CIM), waarvoor er ook inhuurbare expertise buiten de netbeheerders
+  beschikbaar is. Warmte- en gasnet worden op de korte termijn buiten scope
+  geplaatst;
+
+Het resultaat op de korte termijn is toetsbaar op de volgende punten:
+
+* er is voor minstens twee (2) dataproducten een bruikbare (door netbeheerders
+  geaccepteerde) set profielen gepubliceerd door de Werkgroep, onder de eisen
+  beschreven in hoofdstuk [Implementatie](#implementatie);
+* er is ervaring opgedaan met het CIM, waarbij de Werkgroep, CDOs en NBEA
+  evalueren of de uitbreiding in verantwoordelijkheden past binnen de in de
+  *Visie* en *Doelarchitectuur* beschreven kaders. De Werkgroep geeft een
+  positief of negatief advies, eventueel onder voorwaarden, voor vervolg;
+* het CDO-overleg kiest expliciet voor vervolg naar de mediumtermijn.
+
+### Mediumtermijn
+
+Op de mediumtermijn ligt de nadruk op schaal: hoe kan de *Werkgroep Semantische
+Interoperabiliteit* op medium- en langetermijn duurzaam haar werkzaamheden
+uitoefenen:
+
+* herpositioneren Werkgroep: de Werkgroep neemt namens *Netbeheer Nederland* en
+  de gezamelijke CDOs de rol en titel van *Ontology Design Authority* (ODA). De
+  ODA neemt een prominente rol in het beschrijven van de betekenis en structuur
+  van de data-uitwisseling, waarbij de ODA het centrale punt is. Als onderdeel
+  van de herpositionering stelt de ODA een OGSM (*Objective*, *Goal*,
+  *Strategy*, *Measurement*) op;
+* specialisatie van rollen binnen de ODA: het beschrijven van betekenis en
+  structuur zijn twee verschillende activiteiten die haar eigen vaardigheden
+  kennen. Er wordt personeel aangetrokken die die een mix van beide
+  vaardigheden meebrengen, met een voorkeurcomptentie (*T-shaped*);
+* het vastleggen van betekenis wordt verder geprofessionaliseerd: naast het
+  begrippenmodel wordt een formele *ontologie* opgesteld;
+* inrichten beoordelingstructuur: vanuit het proces wordt expliciet gevraagd om
+  het beoordelen van veranderingen in de profielen. Hiervoor is binnen de ODA
+  een groep van experts beschikbaar om op een vaste interval inhoudelijk
+  veranderingen goed te keuren voor publicatie;
+* scopevergroting: naast het beschrijven van het elektriciteitsnet worden ook
+  het warmte- en gasnet onderdeel van de activiteiten. Hiervoor worden nieuwe
+  profielen opgesteld op basis van te kiezen referentiestandaarden;
+* verdere opschaling in bemensing: om bovenstaande ambitie te bewerkstelligen
+  wordt een opschaling van minstens vijf (5) tot tien (10) FTE verwacht. Dit is
+  een mix van personeel vanuit de netbeheerders en externen om de verschillende
+  rollen in te vullen, waarbij extern personeel primair wordt ingezet voor
+  training en ondersteuning van intern personeel.
+
+Toetsbaar resultaat bestaat uit:
+
+* de geïmplementeerde profielen zijn geschikt (door netbeheerders geaccepteerd)
+  voor toepassing van 80% van de dataproducten voor het Landelijke
+  Actieprogramma Netcongestie, Lokale Energiesystemen en Charge Point Operator
+  EV;
+* de *Ontology Design Authority* (ODA) heeft minstens 80% van de *Measures* uit
+  haar OGSM behaald;
+* Alle in deze en voorgaande termijn gepubliceerde modellen zijn onderdeel
+  gemaakt van de geformaliseerde ontologie;
+* de ODA neemt als inhoudelijk expert deel aan standaardisatie van toegepaste
+  standaarden, zoals het CIM. Specifiek voor het CIM houdt dit in dat er
+  minstens deel wordt genomen aan één of meerdere *Task Forces* vanuit de [CIM
+  User Group](http://cimug.ucaiug.org/).
+
+### Langetermijn
+
+Op de lange termijn is de *Ontology Design Authority* (ODA) uitgegroeid tot een
+duurzaam en breed inzetbaar organisatie-onderdeel rondom het beschrijven van
+betekenis en structuur. Via *Continuous Improvement* worden de processen
+geëvalueerd en verbeterd, is het ODA voor netbeheerders en externe stakeholders
+een gesprekspartner en uitvoerende instantie. Het ODA werkt actief mee aan de
+standaardisatie en implementatie van de gehanteerde referentiestandaarden.
+
+Toetsbare resultaten worden volledig vanuit haar eigen OGSM beschreven en
+behaald, waarbij dit document geen verdere richtlijnen of kaders stelt.
 
 # Implementatie
 
@@ -192,7 +310,7 @@ flexibiliteit).
 ### Betekenis
 
 Begrippen worden overgenomen uit en opgevoerd op [Begrippenmodel Netbeheer
-Nederland](https://begrippen.netbeheernederland.nl/).  Alle begrippen zijn
+Nederland](https://begrippen.netbeheernederland.nl/). Alle begrippen zijn
 uniek identificeerbaar op basis van *URI*, waarmee de structuur (onderstaand)
 direct refeert naar het corresponderende begrip.
 
@@ -295,7 +413,18 @@ van de *CIM Profile Group* en de technologische ondersteuning:
 
 ## Werking
 
-> TODO: Continuous Improvement, Training & ondersteuning
+Bij het toetsen van de werking van dit ontwerp worden naast de in hoofdstuk
+[Aanpak](#aanpak) beschreven indicatoren twee additionele punten onderkend:
+
+* in de uitvoer van de processen wordt actief gekeken naar mogelijke
+  procesverbetering. Dit houdt in dat er ruimte is voor optimalisatie,
+  versnelling en verscherping. Deze *Continuous Improvement* beslaat zowel
+  mens, proces en techniek;
+* training en ondersteuning is onderdeel van bedrijfsproces 2: *Plan het
+  profiel*. Hierbij wordt het beschrijven van functionele eisen gecombineerd
+  met training van zowel eigen personeel als stakeholders bij de netbeheerders.
+  Ook vragen gesteld vanuit stakeholders worden opgepakt vanuit dit
+  bedrijfsproces.
 
 # Risicomanagement
 
@@ -320,6 +449,7 @@ van de *CIM Profile Group* en de technologische ondersteuning:
   en data
 * *Informatievraag*: een verzoek tot het beschrijven van de betekenis en
   structuur van een specfieke behoefte rondom informatie
+* *Ontologie*: definieert concepten, entiteiten en hun onderlinge relaties
 * *pRO*: Programma Regie Orginsatie, een samenwerkingsverband tussen Netbeheer
   Nederland en EDSN
 * *TSO*: Transmission System Operator, e.g. TenneT;
