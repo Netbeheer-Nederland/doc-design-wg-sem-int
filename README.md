@@ -201,6 +201,33 @@ opgeschaald en versneld. Er worden drie discrete fasen onderkend:
 2. medium termijn: zes (6) tot achttien (18) maanden vanaf het startmoment;
 3. lange termijn: langer dan achttien (18) maanden na het startmoment.
 
+```mermaid
+gantt
+    title Aanpak - in maanden
+    dateFormat X
+    axisFormat %s
+    section Korte termijn
+    Start: milestone, 0, 0
+    Opschalen werkgroep: 0, 1
+    Toetsen aanpak: 0, 6
+    Modelleren elektriciteitsnet: 0, 6
+    Profielen voor 2 dataproducten: milestone, 6, 6
+    Ervaring met CIM: milestone, 6, 6
+    Advies voor vervolg: crit, milestone, 6, 6
+    section Medium termijn
+    Modelleren e-, g- en w-net (scope): 6, 18
+    Herpositioneren Werkgroep: 6, 9
+    OGSM opgesteld: crit, milestone, 9, 9
+    Specialiseren rollen ODA: 6, 9
+    Inrichten beoordelingsstructuur: 6, 9
+    Verder opschalen werkgroep: 9, 18
+    Profielen dekken 80%: milestone, 18, 18
+    80% OGSM behaald: milestone, 18, 18
+    Standaardisatie: milestone, 18, 18
+```
+
+Voor verdere toelichting, zie de volgende hoofdstukken.
+
 ### Korte termijn
 
 De korte termijn kent een aantal *mijlpalen* die worden ingevuld:
