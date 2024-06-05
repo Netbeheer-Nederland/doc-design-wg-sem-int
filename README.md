@@ -9,6 +9,8 @@ oplossing.
 
 # Akkoord
 
+Dit ontwerp is akkoord bevonden door de volgende stakeholders:
+
 - [ ] Werkgroep Semantische Interoperabiliteit (Datum: )
 - [ ] Chief Data Officer-overleg (Datum: )
 
