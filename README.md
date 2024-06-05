@@ -393,6 +393,22 @@ Onderstaand een toelichting van de profielen en hun toepasbaarheid:
 |System Capacity              |Systeemcapaciteit|ShortCircuitResult, FirmCapacity|
 |Topology                     |Nettopologie: node/breaker v.s. bus/branch|TopologicalNode, ReportingGroup|
 
+### Semantische interoperabiliteit
+
+De *CIM Profile Group*, zoals beschreven in het voorgaande hoofdstuk, vult
+specifiek de behoefte in rond het structureren van gegevens binnen een
+elektriciteitsnet. Om ook concepten uit andere standaarden te kunnen gebruiken
+worden een aantal faciliteiten gebruikt:
+
+* de in hoofdstuk [Bestaan](#bestaan) beschreven werkwijze ondersteunt [Linked
+  Data](https://nl.wikipedia.org/wiki/Linked_data). Hierbij worden klassen
+  beschreven in een profiel gekoppeld aan een concept uit een specfieke
+  standaard. Dit kan het *NBility Business Object Model* zijn, maar ook andere
+  referentiestandaarden zoals de NEN2660;
+* de profielen wordt gepubliceerd vanuit de *Werkgroup Semantische
+  Interoperabiliteit*, waarbij de Werkgroep zorg draagt voor koppeling tussen
+  de bestaande begrippen binnen de energiesector en de profielen.
+
 ### Processen
 
 Het bouwen en beheren van profielen vereist een aantal processen om deze
