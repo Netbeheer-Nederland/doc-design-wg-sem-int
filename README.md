@@ -1,6 +1,11 @@
 # Inleiding
 
-> TODO
+Dit ontwerp beschrijft het opstellen en implementeren van een [CIM Profile
+Group](#structuur-cim-profile-group) binnen de Nederlandse energiesector. Het
+doel is om de data-uitwisseling tussen DSOs en TSOs te verbeteren door een
+gestandaardiseerd informatiemodel te creëren. Deze verbeterde
+interoperabiliteit is een *enabler* voor een efficiënter en betrouwbaarder
+elektriciteitsnetwerk.
 
 Dit document leunt sterk op doelen en principes beschreven in de *Visie* en
 *Doelarchitectuur* Datadelen. Affiniteit aan de kant van de lezer met deze
