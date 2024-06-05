@@ -1,9 +1,16 @@
 # Inleiding
 
+> TODO
+
 Dit document leunt sterk op doelen en principes beschreven in de *Visie* en
 *Doelarchitectuur* Datadelen. Affiniteit aan de kant van de lezer met deze
 documenten is niet vereist, maar geeft meer diepgang aan de voorgestelde
 oplossing.
+
+# Akkoord
+
+- [ ] Werkgroep Semantische Interoperabiliteit (Datum: )
+- [ ] Chief Data Officer-overleg (Datum: )
 
 # Executive summary
 
@@ -159,7 +166,8 @@ oplossing:
 3. (ondersteunen bij) het opstellen en beheren van dataproducten op basis van
    de *CIM Profile Group* voor specifieke informatievragen;
 4. uitdragen van het nut en de noodzaak van de *CIM Profile Group*;
-5. het geven van trainingen rondom het toepassen van de *CIM Profile Group*.
+5. het geven van trainingen rondom het toepassen van de *CIM Profile Group*,
+   inclusief het gebruik van ondersteunende tooling.
 
 In het hoofdstuk [Implementatie](#implementatie) wordt de bovenstaande
 oplossing inhoudelijk verder uitgewerkt.
