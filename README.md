@@ -228,7 +228,7 @@ gantt
     Modelleren e-, g- en w-net (scope): 6, 18
     Herpositioneren Werkgroep: 6, 9
     OGSM opgesteld: crit, milestone, 9, 9
-    Specialiseren rollen ODA: 6, 9
+    Specialiseren rollen OEDA: 6, 9
     Inrichten beoordelingsstructuur: 6, 9
     Verder opschalen werkgroep: 9, 18
     Profielen dekken 80%: milestone, 18, 18
@@ -278,19 +278,19 @@ Semantische Interoperabiliteit* op middellange- en langetermijn duurzaam haar
 werkzaamheden uitoefenen:
 
 * herpositioneren Werkgroep: de Werkgroep neemt namens *Netbeheer Nederland* en
-  de gezamelijke CDOs de rol en titel van *Ontology Design Authority* (ODA). De
-  ODA neemt een prominente rol in het beschrijven van de betekenis en structuur
-  van de data-uitwisseling, waarbij de ODA het centrale punt is. Als onderdeel
-  van de herpositionering stelt de ODA een OGSM (*Objective*, *Goal*,
-  *Strategy*, *Measurement*) op;
-* specialisatie van rollen binnen de ODA: het beschrijven van betekenis en
+  de gezamelijke CDOs de rol en titel van *Ontology (for) Energy Design
+  Authority* (OEDA). De OEDA neemt een prominente rol in het beschrijven van de
+  betekenis en structuur van de data-uitwisseling, waarbij de OEDA het centrale
+  punt is. Als onderdeel van de herpositionering stelt de OEDA een OGSM
+  (*Objective*, *Goal*, *Strategy*, *Measurement*) op;
+* specialisatie van rollen binnen de OEDA: het beschrijven van betekenis en
   structuur zijn twee verschillende activiteiten die haar eigen vaardigheden
   kennen. Er wordt personeel aangetrokken die die een mix van beide
   vaardigheden meebrengen, met een voorkeurcomptentie (*T-shaped*);
 * het vastleggen van betekenis wordt verder geprofessionaliseerd: naast het
   begrippenmodel wordt een formele *ontologie* opgesteld;
 * inrichten beoordelingstructuur: vanuit het proces wordt expliciet gevraagd om
-  het beoordelen van veranderingen in de profielen. Hiervoor is binnen de ODA
+  het beoordelen van veranderingen in de profielen. Hiervoor is binnen de OEDA
   een groep van experts beschikbaar om op een vaste interval inhoudelijk
   veranderingen goed te keuren voor publicatie;
 * scopevergroting: naast het beschrijven van het elektriciteitsnet worden ook
@@ -308,23 +308,24 @@ Toetsbaar resultaat bestaat uit:
   voor toepassing van 80% van de dataproducten voor het Landelijke
   Actieprogramma Netcongestie, Lokale Energiesystemen en Charge Point Operator
   EV;
-* de *Ontology Design Authority* (ODA) heeft minstens 80% van de *Measures* uit
-  haar OGSM behaald;
+* de *Ontology (for) Energy Design Authority* (OEDA) heeft minstens 80% van de
+  *Measures* uit haar OGSM behaald;
 * Alle in deze en voorgaande termijn gepubliceerde modellen zijn onderdeel
   gemaakt van de geformaliseerde ontologie;
-* de ODA neemt als inhoudelijk expert deel aan standaardisatie van toegepaste
+* de OEDA neemt als inhoudelijk expert deel aan standaardisatie van toegepaste
   standaarden, zoals het CIM. Specifiek voor het CIM houdt dit in dat er
   minstens deel wordt genomen aan één of meerdere *Task Forces* vanuit de [CIM
   User Group](http://cimug.ucaiug.org/).
 
 ### Langetermijn
 
-Op de langetermijn is de *Ontology Design Authority* (ODA) uitgegroeid tot een
-duurzaam en breed inzetbaar organisatie-onderdeel rondom het beschrijven van
-betekenis en structuur. Via *Continuous Improvement* worden de processen
-geëvalueerd en verbeterd, is het ODA voor netbeheerders en externe stakeholders
-een gesprekspartner en uitvoerende instantie. Het ODA werkt actief mee aan de
-standaardisatie en implementatie van de gehanteerde referentiestandaarden.
+Op de langetermijn is de *Ontology (for) Energy Design Authority* (OEDA)
+uitgegroeid tot een duurzaam en breed inzetbaar organisatie-onderdeel rondom
+het beschrijven van betekenis en structuur. Via *Continuous Improvement* worden
+de processen geëvalueerd en verbeterd, is het OEDA voor netbeheerders en
+externe stakeholders een gesprekspartner en uitvoerende instantie. Het OEDA
+werkt actief mee aan de standaardisatie en implementatie van de gehanteerde
+referentiestandaarden.
 
 Toetsbare resultaten worden volledig vanuit haar eigen OGSM beschreven en
 behaald, waarbij dit document geen verdere richtlijnen of kaders stelt.
