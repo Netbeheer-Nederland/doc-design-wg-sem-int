@@ -481,10 +481,6 @@ Bij het toetsen van de werking van dit ontwerp worden naast de in hoofdstuk
   Ook vragen gesteld vanuit stakeholders worden opgepakt vanuit dit
   bedrijfsproces.
 
-# Conclusie
-
-> TODO
-
 # Begrippen en definities
 
 * *CDO*: Chief Data Officer
