@@ -21,7 +21,29 @@ Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 
 # Executive summary
 
-> TODO
+Dit ontwerp beschrijft de beoogde uitbreiding en opschaling van de *Werkgroep
+Semantische Interoperabiliteit* (WG). Sinds het starten van de WG heeft de
+aandacht vooral op het beschrijven van **betekenis** van data gelegen, waarbij
+de WG een begrippenmodel onderhoudt namens *Netbeheer Nederland*.
+
+Met het breder beschikbaar stellen van data d.m.v. dataproducten is de vraag
+"welke gegevens horen in een dataproduct" ontstaan. Dit is het **structureren**
+van data. Daarnaast is vanuit de Doelarchitectuur Datadelen een wens op
+herbruikbaarheid en standaardisatie. In het combineren van de gegevensvraag en
+wens op standaardisatie/hergebruik wordt het volgende voorstel gepositioneerd:
+
+* op de kortetermijn breidt de WG met één (1) FTE inhuur uit om naast de
+  betekenis, ook gestandaardiseerd de structuur van dataproducten te
+  beschrijven. Hiervoor wordt het *Common Information Model* (CIM) voor het
+  beschrijven van dataproducten voor het elektriciteitsnet gebruikt;
+* op de middellangetermijn een herpositionering van de WG naar Ontology (for)
+  Energy Data Authority (OEDA), met een corresponderende opschaling in
+  personeel van vijf (5) tot tien (10) FTE. De OEDA beschrijft naast het
+  elektriciteitsnet ook dataproducten voor het warmte- en gasnet.
+
+Door ook het beschrijven van de structuur van dataproducten onderdeel te maken
+van de activiteiten van de WG verhoogt de interoperabiliteit en
+herbruikbaarheid van de door de sector geleverde dataproducten.
 
 # Achtergrond
 
@@ -395,7 +417,7 @@ Onderstaand een toelichting van de profielen en hun toepasbaarheid:
 |European Style Market Profile|Marktfacilitering binnen EU-markten|MarketParticipant, MarketAgreement|
 |Operation                    |Operationele meetwaarden|Measurement, Analog, Accumulator|
 |State Variables              |Resultaat van loadflow- en kortsluitberekeningen|svStatus, svSwitch|
-|Steady State Hypothesis      |Loadflow en kortsluitgegevens|ProtectedSwitch, Jumper|
+|Steady State Hypothesis      |Toestand van het elektriciteitsnet|ProtectedSwitch, Jumper|
 |System Capacity              |Systeemcapaciteit|ShortCircuitResult, FirmCapacity|
 |Topology                     |Nettopologie: node/breaker v.s. bus/branch|TopologicalNode, ReportingGroup|
 
