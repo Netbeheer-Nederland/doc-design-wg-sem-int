@@ -1,11 +1,14 @@
 # Inleiding
 
-Dit ontwerp beschrijft het opstellen en implementeren van een [CIM Profile
-Group](#structuur-cim-profile-group) binnen de Nederlandse energiesector. Het
-doel is om de data-uitwisseling tussen DSOs en TSOs te verbeteren door een
-gestandaardiseerd informatiemodel te creëren. Deze verbeterde
-interoperabiliteit is een *enabler* voor een efficiënter en betrouwbaarder
-elektriciteitsnetwerk.
+Dit ontwerp beschrijft het op de kortetermijn opstellen en implementeren van
+een [CIM Profile Group](#structuur-cim-profile-group) binnen de Nederlandse
+energiesector. Het doel is om de data-uitwisseling tussen DSOs en TSOs te
+verbeteren door een gestandaardiseerd informatiemodel te creëren. Deze
+verbeterde interoperabiliteit is een *enabler* voor een efficiënter en
+betrouwbaarder elektriciteitsnetwerk. Op de middellangetermijn wordt een
+herpositionering beschreven waarbij ook warmte- en gasnetten mee worden
+genomen, alsmede een opschaling van de *Werkgroep Semantische
+Interoperabiliteit* tot *Ontology (for) Energy Data Authority*.
 
 Dit document leunt sterk op doelen en principes beschreven in de *Visie* en
 *Doelarchitectuur* Datadelen. Affiniteit aan de kant van de lezer met deze
@@ -36,8 +39,8 @@ wens op standaardisatie/hergebruik wordt het volgende voorstel gepositioneerd:
   betekenis, ook gestandaardiseerd de structuur van dataproducten te
   beschrijven. Hiervoor wordt het *Common Information Model* (CIM) voor het
   beschrijven van dataproducten voor het elektriciteitsnet gebruikt;
-* op de middellangetermijn een herpositionering van de WG naar Ontology (for)
-  Energy Data Authority (OEDA), met een corresponderende opschaling in
+* op de middellangetermijn een herpositionering van de WG naar *Ontology (for)
+  Energy Data Authority (OEDA)*, met een corresponderende opschaling in
   personeel van vijf (5) tot tien (10) FTE. De OEDA beschrijft naast het
   elektriciteitsnet ook dataproducten voor het warmte- en gasnet.
 
