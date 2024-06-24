@@ -19,8 +19,8 @@ oplossing.
 
 Dit ontwerp is akkoord bevonden door de volgende stakeholders:
 
-- [ ] Werkgroep Semantische Interoperabiliteit (Datum: )
-- [ ] Chief Data Officer-overleg (Datum: )
+- [x] Werkgroep Semantische Interoperabiliteit (Datum: 12-06-2024)
+- [x] Chief Data Officer-overleg (Datum: 17-06-2024)
 
 # Executive summary
 
